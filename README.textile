@@ -1,0 +1,15 @@
+h1. sfMongoDBPagerPlugin
+
+The sfMongoDBPager is a sfPager implementation for MongoDB queries.
+
+h2. Configuration
+
+There is only one additional parameter available right now.
+
+h3. sort
+
+<pre>
+  $pager->setParameter('sort', array(
+    'timestamp' => MongoCollection::DESCENDING,
+  ));
+</pre>
